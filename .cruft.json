@@ -1,0 +1,31 @@
+{
+  "template": "https://github.com/cthoyt/cookiecutter-snekpack",
+  "commit": "a7158e57f8bf1b1e2e779495f82441682a2745d9",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "curies_processing",
+      "package_name_stylized": "CURIEs Processing",
+      "short_description": "Pre- and post-processing configuration for prefixes, CURIEs, and URIs",
+      "author_name": "Charles Tapley Hoyt",
+      "author_github": "cthoyt",
+      "author_email": "cthoyt@gmail.com",
+      "github_organization_name": "cthoyt",
+      "github_repository_name": "curies-processing",
+      "command_line_interface": false,
+      "gitlab": false,
+      "runner": "tox",
+      "__not_charlie": "",
+      "__runner": "tox -e",
+      "__runner_uv": "--with tox-uv tox -e",
+      "__runner_pip": "tox tox-uv",
+      "__runner_install_uv": "uv tool install tox --with tox-uv",
+      "__runner_install_pip": "python3 -m pip install tox tox-uv",
+      "__runner_tests": "py",
+      "__gh_slug": "cthoyt/curies-processing",
+      "_template": "https://github.com/cthoyt/cookiecutter-snekpack",
+      "_commit": "a7158e57f8bf1b1e2e779495f82441682a2745d9"
+    }
+  },
+  "directory": null
+}
