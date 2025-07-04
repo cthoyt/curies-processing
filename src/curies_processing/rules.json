@@ -592,6 +592,7 @@
       "is_a": "rdfs:subClassOf",
       "isa": "rdfs:subClassOf",
       "narrowMatch": "skos:narrowMatch",
+      "obo1:has_role": "ro:0000087",
       "obo:aism#dcterms-license": "dcterms:license",
       "obo:caro#dcterms-license": "dcterms:license",
       "obo:sasap#closeMatch": "skos:closeMatch",
