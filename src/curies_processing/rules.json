@@ -63,6 +63,7 @@
       "http://edamontology.org",
       "http:http\\://www.pacificbiosciences.com/pdf/WP_Detecting_DNA_Base_Modifications_Using_SMRT_Sequencing.pdf",
       "http:www.ensembl.org/info/genome/variation/predicted_data.html#consequences",
+      "https://creativecommons.org/licenses/unspecified",
       "https://www.researchgate.net/scientific-contributions/Simon-Reeve-2162827703"
     ],
     "prefix": [
@@ -397,8 +398,13 @@
       "hasNarrowSynonym": "oboinowl:hasNarrowSynonym",
       "hasRelatedSynonym": "oboinowl:hasRelatedSynonym",
       "has_part": "bfo:0000051",
+      "http://creativecommons.org/licenses/by/3.0": "spdx:CC-BY-3.0",
       "http://creativecommons.org/licenses/by/3.0/": "spdx:CC-BY-3.0",
+      "http://creativecommons.org/licenses/by/4.0": "spdx:CC-BY-4.0",
       "http://creativecommons.org/licenses/by/4.0/": "spdx:CC-BY-4.0",
+      "http://creativecommons.org/publicdomain/zero/1.0": "spdx:CC0-1.0",
+      "https://creativecommons.org/share-your-work/public-domain/cc0": "spdx:CC0-1.0",
+      "https://creativecommons.org/share-your-work/public-domain/cc0/": "spdx:CC0-1.0",
       "http://creativecommons.org/publicdomain/zero/1.0/": "spdx:CC0-1.0",
       "http://example.com/bfo-spec-label": "bfo:0000179",
       "http://purl.obolibrary.org/obo/NCBITaxon#_species_group": "debio:0000024",
@@ -575,8 +581,11 @@
       "http://www.obofoundry.org/ro/ro.owl#proper_part_of": "bfo:0000050",
       "http://www.obofoundry.org/ro/ro.owl#relationship": "owl:ObjectProperty",
       "http://www.obofoundry.org/ro/ro.owl#transformation_of": "ro:0002494",
+      "https://creativecommons.org/licenses/by/3.0": "spdx:CC-BY-3.0",
       "https://creativecommons.org/licenses/by/3.0/": "spdx:CC-BY-3.0",
+      "https://creativecommons.org/licenses/by/4.0": "spdx:CC-BY-4.0",
       "https://creativecommons.org/licenses/by/4.0/": "spdx:CC-BY-4.0",
+      "https://creativecommons.org/publicdomain/zero/1.0": "spdx:CC0-1.0",
       "https://creativecommons.org/publicdomain/zero/1.0/": "spdx:CC0-1.0",
       "https://w3id.org/scholarlydata/person/aldo-gangemi": "orcid:0000-0001-5568-2684",
       "https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese": "orcid:0000-0003-2928-9496",
@@ -689,6 +698,7 @@
       "Wikipeda:": "wikipedia:",
       "cancercelllines:CVCL_": "cellosaurus:CVCL_",
       "chembl target:CHEMBL": "chembl.target:CHEMBL",
+      "cheminf:SIO_": "SIO:",
       "detail?JGLOBAL:ID=": "iobc",
       "doi:/": "doi:",
       "edamontology:topic_": "edam.topic:",
@@ -744,6 +754,9 @@
       }
     },
     "resource_prefix": {
+      "bibframe": {
+        "bf": "bibframe"
+      },
       "biolink": {
         "active:in": "biolink:active_in",
         "actively:involves": "biolink:actively_involves",
@@ -787,6 +800,21 @@
       "doid": {
         "MIM:PS": "omim.ps:"
       },
+      "earthcube.aut": {
+        "AUT": "earthcube.aut"
+      },
+      "earthcube.mola": {
+        "MOLA": "earthcube.mola"
+      },
+      "earthcube.sfo": {
+        "SFO": "earthcube.sfo"
+      },
+      "earthcube.srt": {
+        "srt": "earthcube.srt"
+      },
+      "earthcube.swl": {
+        "SWL": "earthcube.swl"
+      },
       "ehdaa2": {
         "CS": "carnegie.stage:"
       },
@@ -819,6 +847,9 @@
         "miRBase:MIPF": "mirbase.family:MIPF",
         "mirbase:MIMAT": "mirbase.mature:MIMAT"
       },
+      "omiabis": {
+        "GEO:": "GEOGEO:"
+      },
       "phipo": {
         "created:by": "dcterms:creator",
         "created:date": "dcterms:created",
@@ -843,6 +874,9 @@
       },
       "t4fs": {
         "TF4S:": "t4fs:"
+      },
+      "uniprot.core": {
+        "core": "uniprot.core"
       },
       "uniprot.disease": {
         "http://purl.obolibrary.org/obo/TEMP#": "uniprot.disease:"
