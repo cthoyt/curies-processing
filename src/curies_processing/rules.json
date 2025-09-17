@@ -312,6 +312,13 @@
       ".svg"
     ]
   },
+  "postprocessing": {
+    "suffix": {
+      "smid": [
+        "%0D"
+      ]
+    }
+  },
   "rewrites": {
     "full": {
       "ABBREVIATION": "omo:0003000",
