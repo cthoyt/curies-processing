@@ -312,6 +312,13 @@
       ".svg"
     ]
   },
+  "postprocessing": {
+    "suffix": {
+      "smid": [
+        "%0D"
+      ]
+    }
+  },
   "rewrites": {
     "full": {
       "ABBREVIATION": "omo:0003000",
@@ -912,13 +919,6 @@
         "specificities:": "obo:xlmod#specificities",
         "waveLengthRange:": "obo:xlmod#waveLengthRange"
       }
-    }
-  },
-  "postprocessing": {
-    "suffix": {
-      "smid": [
-        "%0D"
-      ]
     }
   }
 }
