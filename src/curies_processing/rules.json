@@ -913,5 +913,12 @@
         "waveLengthRange:": "obo:xlmod#waveLengthRange"
       }
     }
+  },
+  "postprocessing": {
+    "suffix": {
+      "smid": [
+        "%0D"
+      ]
+    }
   }
 }
