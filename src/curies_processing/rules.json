@@ -64,7 +64,12 @@
       "http:http\\://www.pacificbiosciences.com/pdf/WP_Detecting_DNA_Base_Modifications_Using_SMRT_Sequencing.pdf",
       "http:www.ensembl.org/info/genome/variation/predicted_data.html#consequences",
       "https://creativecommons.org/licenses/unspecified",
-      "https://www.researchgate.net/scientific-contributions/Simon-Reeve-2162827703"
+      "https://www.researchgate.net/scientific-contributions/Simon-Reeve-2162827703",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_gp2term"
     ],
     "prefix": [
       "DDB:",
@@ -321,6 +326,9 @@
   },
   "rewrites": {
     "full": {
+      "obo:doid#relatedMatch": "skos:relatedMatch",
+      "obo:doid#closeMatch": "skos:closeMatch",
+      "RO:is_a": "rdfs:subClassOf",
       "ABBREVIATION": "omo:0003000",
       "BSPO:cjm": "orcid:0000-0002-6601-2165",
       "BSPO:mah": "orcid:0000-0003-4148-4606",
@@ -801,6 +809,10 @@
       "cellosaurus": {
         "PubChem_Cell_line:CVCL_": "cellosaurus:",
         "pgx:CVCL_": "cellosaurus:"
+      },
+      "cheminf": {
+        "ontologies:cheminf.owl#short_name": "OMO:0003000",
+        "ontologies:is_output_of": "RO:0002353"
       },
       "chebi": {
         "DrugBank:DBSALT": "drugbank.salt:DBSALT"
