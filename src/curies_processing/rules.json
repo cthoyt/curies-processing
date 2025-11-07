@@ -61,15 +61,15 @@
       "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd",
       "group:OBI",
       "http://edamontology.org",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_gp2term",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology",
+      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam",
       "http:http\\://www.pacificbiosciences.com/pdf/WP_Detecting_DNA_Base_Modifications_Using_SMRT_Sequencing.pdf",
       "http:www.ensembl.org/info/genome/variation/predicted_data.html#consequences",
       "https://creativecommons.org/licenses/unspecified",
-      "https://www.researchgate.net/scientific-contributions/Simon-Reeve-2162827703",
-      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension",
-      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology",
-      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam",
-      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension",
-      "http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_gp2term"
+      "https://www.researchgate.net/scientific-contributions/Simon-Reeve-2162827703"
     ],
     "prefix": [
       "DDB:",
@@ -326,9 +326,6 @@
   },
   "rewrites": {
     "full": {
-      "obo:doid#relatedMatch": "skos:relatedMatch",
-      "obo:doid#closeMatch": "skos:closeMatch",
-      "RO:is_a": "rdfs:subClassOf",
       "ABBREVIATION": "omo:0003000",
       "BSPO:cjm": "orcid:0000-0002-6601-2165",
       "BSPO:mah": "orcid:0000-0003-4148-4606",
@@ -375,6 +372,7 @@
       "PomBase\\:mah": "orcid:0000-0003-4148-4606",
       "Property:P1659": "wikidata:P1659",
       "RO:has_part": "bfo:0000051",
+      "RO:is_a": "rdfs:subClassOf",
       "RO:part_of": "BFO:0000050",
       "SBN:9780070316607": "ISBN:9780070316607",
       "SIB:PG": "orcid:0000-0003-1813-6857",
@@ -612,6 +610,7 @@
       "https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese": "orcid:0000-0003-2928-9496",
       "https://w3id.org/scholarlydata/person/anna-lisa-gentile": "orcid:0000-0002-6401-4175",
       "https://w3id.org/scholarlydata/person/valentina-presutti": "orcid:0000-0002-9380-5160",
+      "https://www.apache.org/licenses/LICENSE-2.0": "spdx:Apache-2.0",
       "immediately_preceded_by": "ro:0002087",
       "immediately_precedes": "ro:0002090",
       "inheres:in": "RO:0000052",
@@ -626,6 +625,8 @@
       "obo1:has_role": "ro:0000087",
       "obo:aism#dcterms-license": "dcterms:license",
       "obo:caro#dcterms-license": "dcterms:license",
+      "obo:doid#closeMatch": "skos:closeMatch",
+      "obo:doid#relatedMatch": "skos:relatedMatch",
       "obo:sasap#closeMatch": "skos:closeMatch",
       "obo:sasap#relatedMatch": "skos:relatedMatch",
       "part:of": "BFO:0000050",
@@ -734,6 +735,7 @@
       "http:http\\://en.wikipedia.org/wiki/": "wikipedia.en:",
       "http:http\\:en.wikipedia.org/wiki/": "wikipedia.en:",
       "http:www": "http://www",
+      "https://www.wikidata.org/wiki/Property\\:": "wikidata.property:",
       "odo:ADCAD_": "adcad:",
       "odo:MOSAIC_": "mosaic:",
       "omim:PS": "omim.ps:",
@@ -810,12 +812,12 @@
         "PubChem_Cell_line:CVCL_": "cellosaurus:",
         "pgx:CVCL_": "cellosaurus:"
       },
+      "chebi": {
+        "DrugBank:DBSALT": "drugbank.salt:DBSALT"
+      },
       "cheminf": {
         "ontologies:cheminf.owl#short_name": "OMO:0003000",
         "ontologies:is_output_of": "RO:0002353"
-      },
-      "chebi": {
-        "DrugBank:DBSALT": "drugbank.salt:DBSALT"
       },
       "chmo": {
         "Orange:": "orangebook:",
@@ -870,6 +872,12 @@
       "mdm": {
         "drugbank:DB:": "drugbank:DB"
       },
+      "modalia": {
+        "bf:": "bibframe:",
+        "ec:": "educor:",
+        "hcrt:": "kim.hcrt:",
+        "lexvo:": "lexvo.ontology:"
+      },
       "ncro": {
         "miRBase:MIPF": "mirbase.family:MIPF",
         "mirbase:MIMAT": "mirbase.mature:MIMAT"
@@ -910,6 +918,9 @@
       },
       "uniprot.location": {
         "http://purl.obolibrary.org/obo/TEMP#": "uniprot.location:"
+      },
+      "vivo": {
+        "core:": "vivo:"
       },
       "worldavatar.kin": {
         "OntoKin:": "worldavatar.kin:"
