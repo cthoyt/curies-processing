@@ -58,6 +58,7 @@
       "XX:<new xref>",
       "XX:newdbxref",
       "XX:www.ensembl.org/info/genome/variation/predicted_data.html#consequences",
+      "efo:primary_source",
       "ftp://ftp.ncbi.nih.gov/snp/specs/docsum_3.1.xsd",
       "group:OBI",
       "http://edamontology.org",
@@ -95,6 +96,31 @@
     "resource_full": {
       "ceph": [
         "Nidamental:gland"
+      ],
+      "chebi": [
+        "1:STAR",
+        "2:STAR",
+        "3:STAR"
+      ],
+      "cmo": [
+        "American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed",
+        "American_Heritage:The_American_Heritage_Medical_Dictionary_2007",
+        "Berne_and_Levy:Berne_and_Levy_Physiology--6th_Ed",
+        "Collins:Collins_Online_English_Dictionary",
+        "Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed",
+        "Farlex:Farlex_Partner_Medical_Dictionary_2012",
+        "Frisancho_and_Flegel:Frisancho_and_Flegel_1983",
+        "Keogh:Nursing_Laboratory_and_Diagnostic_Tests_Demystified",
+        "McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine",
+        "Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed",
+        "Mondofacto:Mondofacto_Online_Medical_Dictionary",
+        "Mosby:Mosbys_Dental_Dictionary--2nd_Ed",
+        "Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed",
+        "Mosby:Mosbys_Medical_Dictionary--8th_Ed",
+        "PGA:Cardiac_protocol",
+        "PGA:Ultrasound_protocol",
+        "Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed",
+        "Schutz_Kyle_and_Pichard:Schutz_et_al_2002"
       ],
       "envo": [
         "Genomes:fissure",
@@ -669,6 +695,7 @@
       "GEMET:http\\://www.eionet.europa.eu/gemet/concept/": "GEMET:",
       "GNOme: \"GNO:": "glygen",
       "GO:GO\\:": "go:",
+      "HMDB:0": "hmdb:HMDB0",
       "IEDB:RV": "orcid:0000-0001-8957-7612",
       "IEDB:RandiVita": "orcid:0000-0001-8957-7612",
       "IEDB:RandiVita xsd:string": "orcid:0000-0001-8957-7612",
@@ -686,6 +713,7 @@
       "NCBI:NBK": "ncbibook:",
       "NCBI:txid": "NCBITaxon:",
       "NIFSTD:birnlex": "neurolex:birnlex",
+      "NIFSTD:birnlex_": "birnlex:",
       "NIFSTD:nifext_": "neurolex:nifext_",
       "NIFSTD:nlx_dys_": "NLXDYS:",
       "NIFSTD:sao": "SAO:",
@@ -718,6 +746,7 @@
       "VFB:FBbt_": "FBbt:",
       "WIKI:https\\://en.wikipedia.org/wiki/": "wikipedia.en:",
       "Wikipeda:": "wikipedia:",
+      "birn_anat:birnlex_": "birnlex:",
       "cancercelllines:CVCL_": "cellosaurus:CVCL_",
       "chembl target:CHEMBL": "chembl.target:CHEMBL",
       "cheminf:SIO_": "SIO:",
@@ -736,6 +765,7 @@
       "http:http\\:en.wikipedia.org/wiki/": "wikipedia.en:",
       "http:www": "http://www",
       "https://www.wikidata.org/wiki/Property\\:": "wikidata.property:",
+      "neurolex:birnlex_": "birnlex:",
       "odo:ADCAD_": "adcad:",
       "odo:MOSAIC_": "mosaic:",
       "omim:PS": "omim.ps:",
@@ -853,6 +883,9 @@
       "enm": {
         "Thesaurus:C": "NCIT:C"
       },
+      "envo": {
+        "GEMET:http://www.eionet.europa.eu/gemet/concept/": "gemet:"
+      },
       "idocovid19": {
         "UniProtKN:": "uniprot:"
       },
@@ -892,11 +925,16 @@
       },
       "pr": {
         "OMA:": "uniprot:",
+        "UniProtKB_VAR:VAR_": "uniprot.var:",
         "iPTMnet:": "uniprot:"
       },
       "pw": {
         "KEGG:": "kegg.pathway:",
         "PID:": "pid.pathway:"
+      },
+      "schema": {
+        "https://github.com/schemaorg/schemaorg/issues/": "github.issue:schemaorg/schemaorg/",
+        "ns1:": "skos:"
       },
       "senso": {
         "odo:SENSO_": "senso:"
