@@ -192,6 +192,17 @@
         "Pinhole:eye",
         "Serous:membrane",
         "Vaginal:fornix"
+      ],
+      "vo": [
+        "cancer vaccine",
+        "data item",
+        "immune response profile",
+        "information content entity",
+        "material entity",
+        "vaccine adjuvant",
+        "vaccine component",
+        "vaccine preparation",
+        "vaccine-induced response"
       ]
     },
     "resource_prefix": {
@@ -752,8 +763,10 @@
       "cheminf:SIO_": "SIO:",
       "detail?JGLOBAL:ID=": "iobc",
       "doi:/": "doi:",
+      "drugbank:DBSALT": "drugbank.salt:DBSALT",
       "edamontology:topic_": "edam.topic:",
       "efo:swo/SWO_": "swo:",
+      "foodb.food:FDB": "foodb.compound:FDB",
       "has:": "has_",
       "http://en.wikipedia.org/wiki/": "wikipedia.en:",
       "http://https://orcid.org/": "orcid:",
@@ -803,12 +816,18 @@
         ":has_start_point": "BSPO:0020002",
         "has_start_point": "BSPO:0020002"
       },
+      "chebi": {
+        "BRAND:NAME": "OMO:0003013"
+      },
       "cteno": {
         ":has_start_point": "BSPO:0020002",
         "has_start_point": "BSPO:0020002"
       }
     },
     "resource_prefix": {
+      "adw": {
+        "http://www.owl-ontologies.com/unnamed.owl#": "adw:"
+      },
       "bibframe": {
         "bf": "bibframe"
       },
