@@ -21,6 +21,7 @@
       "GO:curator",
       "GOC:TermGenie",
       "GOC:go_curators",
+      "GOC:kva",
       "GOC:mtg_cell_cycle",
       "GOC:mtg_kidney_jan10",
       "GOC:pamgo_curators",
@@ -933,6 +934,9 @@
       "ncro": {
         "miRBase:MIPF": "mirbase.family:MIPF",
         "mirbase:MIMAT": "mirbase.mature:MIMAT"
+      },
+      "oeo": {
+        "oeo:oeo-physical/OEO_": "oeo:"
       },
       "omiabis": {
         "GEO:": "GEOGEO:"
