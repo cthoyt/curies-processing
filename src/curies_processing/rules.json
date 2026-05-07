@@ -370,6 +370,7 @@
   "rewrites": {
     "full": {
       "ABBREVIATION": "omo:0003000",
+      "AHOL:hasSymptom": "RO:0002452",
       "BSPO:cjm": "orcid:0000-0002-6601-2165",
       "BSPO:mah": "orcid:0000-0003-4148-4606",
       "CHEBI:133245 MetaCyc:quercetin 3-rhamnoside-7-rhamnoside": "CHEBI:133245",
@@ -833,6 +834,9 @@
     "resource_prefix": {
       "adw": {
         "http://www.owl-ontologies.com/unnamed.owl#": "adw:"
+      },
+      "ahol": {
+        "ncbi:": "NCBITaxon:"
       },
       "bibframe": {
         "bf": "bibframe"
