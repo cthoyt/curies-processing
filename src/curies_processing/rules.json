@@ -807,6 +807,7 @@
       "url:http\\://www.ncbi.nlm.nih.gov/gene/": "ncbigene:",
       "url:http\\://www.ncbi.nlm.nih.gov/sites/entrez/": "ncbigene:",
       "url:http\\://www.omim.org/entry/": "omim:",
+      "url:https://www.ncbi.nlm.nih.gov/pmc/articles/": "pmc:",
       "url:https\\://en.wikipedia.org/wiki/": "wikipedia.en:",
       "url:https\\://ghr.nlm.nih.gov/condition/": "ghr:",
       "url:https\\://pubmed.ncbi.nlm.nih.gov/": "pubmed:",
